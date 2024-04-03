@@ -1,9 +1,15 @@
 import './App.css';
-import Timer from "./component/Timer";
+import Counter1 from "./component/Counter1";
+import Counter2 from "./component/Counter2";
 
 function App() {
   return (
-      <Timer/>
+      // <Timer/>
+      <>
+      <Counter1/>
+      <br/>
+      <Counter2/>
+      </>
   );
 }
 
